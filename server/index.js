@@ -6,9 +6,8 @@ const port = 3001;
 app.use(express.json())
 
 
-
+// hi
 
 app.listen(port, () => {
-    createTable();
     console.log(`Server is running on http://localhost:${port}`);
 });
